@@ -51,7 +51,7 @@ body {
 
 /* <!-- navbar  --> */
 nav {
-  background: black;
+  background: rgba(0, 0, 0, 0.716);
   color: orange;
   position: sticky;
   top: 0;
@@ -79,5 +79,52 @@ nav ul li:hover {
 /* <!-- paragraph  --> */
 
 /* <!-- image  --> */
-
+[class^="img"] {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  background: rgba(0, 0, 0, 0.549);
+  color: white;
+  font-size: 2rem;
+  padding: 1.4rem 5rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+.img1 {
+  background: url(./Pictures/a.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img2 {
+  background: url(./Pictures/b.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img3 {
+  background: url(./Pictures/c.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img4 {
+  background: url(./Pictures/d.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* h2 {
+  position: sticky;
+  top: 10px;
+} */
 /* <!-- footer  --> */
+footer {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  font-size: 1.3rem;
+}
